@@ -15,4 +15,11 @@ import pyfirmata
 pin=13
 port='/dev/tty.usbmodem1421'
 board=pyfirmata.Arduino(port)
+board.digital[pin].write(0)
+time.sleep(1000)
 board.digital[pin].write(1)
+time.sleep(1000)
+board.digital[pin].write(0)
+time.sleep(2)
+board.digital[pin].write(1)
+time.sleep(2)
