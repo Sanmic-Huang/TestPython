@@ -3,7 +3,7 @@
 # Date: 2017/08/29
 # SOP: shift+CMD+D, fn+F5, cmd+W
 # GIT: shift+Ctl+G, Keyin submit, cmd+enter
-# Goal: Test tkinter package
+# Goal: Test Tkinter package
 # ===========================================
 from Tkinter import *
 
