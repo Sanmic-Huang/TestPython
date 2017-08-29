@@ -1,7 +1,8 @@
 # ===========================================
 # Designer: Sanmic Huang
 # Date: 2017/08/29
-# shift+CMD+D, fn+F5, cmd+W
+# SOP: shift+CMD+D, fn+F5, cmd+W
+# GIT: shift+Ctl+G, Keyin submit, cmd+enter
 # ===========================================
 import cv2
 import numpy as np
