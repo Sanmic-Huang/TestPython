@@ -1,4 +1,6 @@
 import cv2
+import numpy as np
+
 img = cv2.imread('/Volumes/SanmicSD/0-Backup/Code/1-DB/LatentOverlap/overlap/00+00_1.bmp',0)
 blur = cv2.GaussianBlur(img,(5,5),0)
 # find normalized_histogram, and its cumulative distribution function
